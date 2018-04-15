@@ -8,6 +8,8 @@ import java.util.Date;
  */
 
 public class Chamado implements Serializable{
+    public final static String DATE_PATTERN = "dd-MM-yyyy";
+
     private int numero;
     private Date dataAbertura, dataFechamento;
     private String status, descricao;
